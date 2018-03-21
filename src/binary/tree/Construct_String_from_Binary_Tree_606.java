@@ -1,15 +1,7 @@
+package binary.tree;
+
 public class Construct_String_from_Binary_Tree_606 {
 
-    /**
-     * Definition for a binary tree node.
-     *
-     */
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
 
     public String tree2str(TreeNode t) {
         if (t == null)

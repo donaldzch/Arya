@@ -1,3 +1,5 @@
+package binary.tree;
+
 public class Maximum_Depth_of_Binary_Tree_104 {
     public class TreeNode {
         int val;

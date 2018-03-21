@@ -1,11 +1,6 @@
-public class Convert_BST_to_Greater_Tree_538 {
+package binary.tree;
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
+public class Convert_BST_to_Greater_Tree_538 {
 
     public TreeNode convertBST(TreeNode root) {
         if (root == null)

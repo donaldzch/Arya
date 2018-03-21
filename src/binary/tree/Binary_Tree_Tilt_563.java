@@ -1,13 +1,6 @@
-public class Binary_Tree_Tilt_563 {
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
+package binary.tree;
 
-        TreeNode(int x) {
-            val = x;
-        }
-    }
+public class Binary_Tree_Tilt_563 {
 
     public int findTilt(TreeNode root) {
         int[] result = new int[1];
