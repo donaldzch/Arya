@@ -14,9 +14,9 @@ public class Best_Time_to_Buy_and_Sell_Stock_121 {
     }
 
     public int maxProfit1(int[] prices) {
-        int max_ending_here = 0, max_so_far = prices[0];
+        int max_ending_here = 0, max_so_far = 0;
         for (int i = 1; i < prices.length; i++) {
-            max_ending_here = Math.max(max_ending_here, max_ending_here + (prices[i] - prices[i - 1]));
+            max_ending_here = Math.max(0, max_ending_here + (prices[i] - prices[i - 1]));
             max_so_far = Math.max(max_so_far, max_ending_here);
         }
 

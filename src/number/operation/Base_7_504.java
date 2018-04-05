@@ -1,3 +1,5 @@
+package number.operation;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -23,6 +25,7 @@ public class Base_7_504 {
             'o' , 'p' , 'q' , 'r' , 's' , 't' ,
             'u' , 'v' , 'w' , 'x' , 'y' , 'z'
     };
+
     public String convertToBase71(int num) {
         char buf[] = new char[33];
         boolean negative = (num < 0);
