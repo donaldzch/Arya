@@ -1,3 +1,5 @@
+package array.operation;
+
 public class Minimum_Moves_to_Equal_Array_Elements_453 {
 
     /**

@@ -1,3 +1,5 @@
+package array.operation;
+
 import static java.util.Arrays.sort;
 
 public class ArrayPartitionI {

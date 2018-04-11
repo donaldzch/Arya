@@ -1,7 +1,8 @@
+package array.operation;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Minimum_Moves_to_Equal_Array_Elements_II_462 {
