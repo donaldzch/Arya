@@ -71,7 +71,7 @@ public class Binary_Tree_Inorder_Traversal_94 {
                     }
 
                  /* Revert the changes made in if part to restore the
-                    original tree i.e.,fix the right child of predecssor*/
+                    original tree i.e.,fix the right child of predecessor*/
                     else {
                         previous.right = null;
                         ans.add(current.val);
