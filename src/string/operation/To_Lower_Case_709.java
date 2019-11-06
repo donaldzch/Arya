@@ -8,11 +8,11 @@ public class To_Lower_Case_709 {
             for (int i = 0; i < chars.length; i++) {
                 char c = chars[i];
                 if (c >= 'A' && c <= 'Z') {
-                    c = (char)(c + ('A' - 'a'));
+                    c = (char)(c + ('a' - 'A'));
                 }
                 sb.append(c);
             }
-            return chars.toString();
+            return sb.toString();
         }
     }
 
