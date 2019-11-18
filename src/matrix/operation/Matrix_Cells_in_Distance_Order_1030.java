@@ -47,16 +47,5 @@ class Matrix_Cells_in_Distance_Order_1030 {
             return result;
             
         }
-
-        private void dfs(int R, int C, int i, int j, List<int[]> result) {
-            if (i < 0 || i >= R || j < 0 || j >=C) {
-                return;
-            }
-            result.add(new int[] {i, j});
-            dfs(R, C, i + 1, j, result);
-            dfs(R, C, i - 1, j, result);
-            dfs(R, C, i, j + 1, result);
-            dfs(R, C, i, j - 1, result);
-        } 
     }
 }
