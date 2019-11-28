@@ -21,7 +21,12 @@ class Intersection_of_Two_Arrays_II_350 {
                 }
             }
 
-            return result.toArray(new int[0]);
+            int[] ans = new int[result.size()];
+            for (int i = 0; i < result.size(); i++) {
+                ans[i] = result.get(i);
+            }
+
+            return ans;
         }
     }
 }
