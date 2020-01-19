@@ -5,7 +5,6 @@ import java.util.HashMap;
 class Largest_Values_From_Labels_1090 {
     class Solution {
         public int largestValsFromLabels(int[] values, int[] labels, int num_wanted, int use_limit) {
-            int result = 0;
             Map<Integer, Integer> labelMap = new HashMap<>();
 
             for (int label : labels) {
