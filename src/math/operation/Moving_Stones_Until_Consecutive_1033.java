@@ -1,5 +1,7 @@
 package math.operation;
 
+import java.util.*;
+
 class Moving_Stones_Until_Consecutive_1033 {
     class Solution {
         public int[] numMovesStones(int a, int b, int c) {

@@ -1,6 +1,6 @@
 package math.operation;
 
-import java.util.List;
+import java.util.*;
 
 class Beautiful_Array_932 {
     class Solution {
