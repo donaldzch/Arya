@@ -1,6 +1,5 @@
 package stack.queue.operation;
 
-import java.util.Map;
 import java.util.Stack;
 import javafx.util.Pair;
 
