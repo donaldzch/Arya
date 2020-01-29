@@ -1,5 +1,7 @@
 package bit.operation;
 
+import java.util.*;
+
 class Solution {
     public List<Boolean> prefixesDivBy5(int[] A) {
         List<Boolean> result = new ArrayList<>();

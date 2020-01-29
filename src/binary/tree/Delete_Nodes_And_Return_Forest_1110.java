@@ -1,8 +1,6 @@
 package binary.tree;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 class Delete_Nodes_And_Return_Forest_1110 {
     class Solution {

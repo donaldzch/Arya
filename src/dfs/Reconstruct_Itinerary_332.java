@@ -42,15 +42,15 @@ public class Reconstruct_Itinerary_332 {
                 {"LHR", "SFO"}
         };
 
-        List<String> result = new Reconstruct_Itinerary_332().new Solution().findItinerary(tickets);
+        new Reconstruct_Itinerary_332().new Solution().findItinerary(tickets);
     }
 
     class Solution1 {
         public List<String> findItinerary(String[][] tickets) {
             Map<String, PriorityQueue<String>> targets = new HashMap<>();
             for (String[] ticket : tickets)
-                targets.computeIfAbsent(ticket[0], k -> new PriorityQueue()).add(ticket[1]);
-            List<String> route = new LinkedList();
+                targets.computeIfAbsent(ticket[0], k -> new PriorityQueue<>()).add(ticket[1]);
+            List<String> route = new LinkedList<>();
             Stack<String> stack = new Stack<>();
             stack.push("JFK");
             while (!stack.empty()) {

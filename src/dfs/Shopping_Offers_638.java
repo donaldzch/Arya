@@ -68,7 +68,6 @@ public class Shopping_Offers_638 {
         List<Integer> price = Arrays.asList(2, 5);
         List<List<Integer>> special = Arrays.asList(Arrays.asList(3, 0, 5), Arrays.asList(1, 2, 10));
         List<Integer> needs = Arrays.asList(3, 2);
-        int[][] M = {{1, 0, 0, 1}, {0, 1, 1, 0}, {0, 1, 1, 1}, {1, 0, 1, 1}};
         new Shopping_Offers_638().new Solution().shoppingOffers(price, special, needs);
 
 

@@ -18,7 +18,7 @@ class Subdomain_Visit_Count_811 {
                 String[] domains = cp[1].split("\\.");
                 String currentDomain = "";
                 for (int i = domains.length - 1; i >=0; i--) {
-                    currentDomain = domains[i] + (i < domains.length - 1) ? "." : "" + currentDomain;
+                    currentDomain = domains[i] + ((i < domains.length - 1) ? "." : "") + currentDomain;
                     map.put(currentDomain, map.getOrDefault(currentDomain, 0) + count);
                 }
             }

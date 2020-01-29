@@ -1,7 +1,6 @@
 package binary.tree;
 
-import java.util.Map;
-import java.util.Queue;
+import java.util.*;
 
 class Cousins_in_Binary_Tree_953 {
     class Solution {

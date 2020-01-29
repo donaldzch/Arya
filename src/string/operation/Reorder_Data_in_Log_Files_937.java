@@ -1,6 +1,6 @@
 package string.operation;
 
-import java.util.Comparator;
+import java.util.*;
 
 class Reorder_Data_in_Log_Files_937 {
     class Solution {
@@ -10,8 +10,8 @@ class Reorder_Data_in_Log_Files_937 {
                 String[] str1 = log1.split(" ", 2);
                 String[] str2 = log2.split(" ", 2);
 
-                boolean isDigital1 = Character.isDigital(str1[1].charAt[0]);
-                boolean isDigital2 = Character.isDigital(str2[1].charAt[0]);
+                boolean isDigital1 = Character.isDigit(str1[1].charAt(0));
+                boolean isDigital2 = Character.isDigit(str2[1].charAt(0));
 
                 if (!isDigital1 && !isDigital2) {
                     int result = str1[1].compareTo(str2[1]);

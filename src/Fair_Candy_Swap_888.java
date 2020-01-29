@@ -1,4 +1,4 @@
-import java.util.Set;
+import java.util.*;
 
 class Fair_Candy_Swap_888 {
     class Solution {

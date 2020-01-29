@@ -1,6 +1,6 @@
 package greedy;
 
-import java.util.HashMap;
+import java.util.*;
 
 class Largest_Values_From_Labels_1090 {
     class Solution {
@@ -38,7 +38,7 @@ class Largest_Values_From_Labels_1090 {
 			    int label = valueTolabel[i][1];
                 // if label usage less than use_limit and subset size is less than num_wanted, include array item in the subset
 			    if (num_wanted > 0 && labelMap.get(label) < use_limit) {
-                    sum += val;
+                    sum += value;
 				    labelMap.put(label, labelMap.get(label) + 1);
 				    num_wanted--;
 			    }

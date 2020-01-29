@@ -1,7 +1,5 @@
 package string.operation;
 
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Stack;
 
 class Remove_All_Adjacent_Duplicate_In_String_1047 {

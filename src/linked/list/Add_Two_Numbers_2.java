@@ -1,7 +1,5 @@
 package linked.list;
 
-import java.util.List;
-
 public class Add_Two_Numbers_2 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

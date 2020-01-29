@@ -1,6 +1,6 @@
 package two.sum;
 
-import java.util.Map;
+import java.util.*;
 
 class Pairs_of_Songs_With_Total_Durations_Divisible_by_60 {
     class Solution {

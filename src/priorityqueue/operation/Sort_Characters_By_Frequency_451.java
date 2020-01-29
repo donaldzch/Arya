@@ -1,9 +1,6 @@
 package priorityqueue.operation;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.PriorityQueue;
+import java.util.*;
 
 class Sort_Characters_By_Frequence_451 {
     class Solution {
@@ -40,7 +37,7 @@ class Sort_Characters_By_Frequence_451 {
                 frequency.put(c, frequency.getOrDefault(c, 0) + 1);
             }
 
-            List<Character>[] buckets = new ArrayList[s.length() + 1];
+            List<Character>[] buckets = new List[s.length() + 1];
 
             for (Map.Entry<Character, Integer> entry : frequency.entrySet()) {
                 if (buckets[entry.getValue()] == null) {

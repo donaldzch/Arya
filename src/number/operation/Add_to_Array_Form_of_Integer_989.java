@@ -1,6 +1,6 @@
 package number.operation;
 
-import java.util.ArrayList;
+import java.util.*;
 
 class Add_to_Array_Form_of_Integer_989 {
     class Solution {

@@ -1,6 +1,6 @@
 package math.operation;
 
-import java.util.Map;
+import java.util.*;
 
 class X_of_a_Kind_in_a_Deck_of_Cards_914 {
     class Solution {
@@ -12,7 +12,9 @@ class X_of_a_Kind_in_a_Deck_of_Cards_914 {
             }
 
             int result = 0;
-            for (int i : count.values()) res = gcd(i, res);
+            for (int i : count.values()) {
+                result = gcd(i, result);
+            }
             return result > 1;
         }
 

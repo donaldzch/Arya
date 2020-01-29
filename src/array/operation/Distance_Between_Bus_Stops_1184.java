@@ -15,7 +15,7 @@ class Distance_Between_Bus_Stops_1184 {
             for (int i = destination; i != start; i = (i + 1) % n) {
                 antiCounter += distance[i];
             }
-            return Math.max(couterwise, antiCounter);
+            return Math.max(counterwise, antiCounter);
         }
     }
 

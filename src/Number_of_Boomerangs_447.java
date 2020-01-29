@@ -1,6 +1,4 @@
-import java.util.Map;
-
-import sun.net.www.content.text.plain;
+import java.util.*;
 
 class Number_of_Boomerangs_447 {
     class Solution {

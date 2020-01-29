@@ -1,8 +1,5 @@
 package array.operation;
 
-import java.util.HashSet;
-import java.util.Set;
-
 class Sum_of_Even_Numbers_After_Queries_985 {
     class Solution {
         public int[] sumEvenAfterQueries(int[] A, int[][] queries) {

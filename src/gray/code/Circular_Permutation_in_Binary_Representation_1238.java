@@ -1,6 +1,6 @@
 package gray.code;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class Circular_Permutation_in_Binary_Representation_1238 {
     class Solution {

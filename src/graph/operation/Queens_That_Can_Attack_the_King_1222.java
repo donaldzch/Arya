@@ -1,7 +1,6 @@
 package graph.operation;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 
 class Queens_That_Can_Attack_the_King_1222 {
     class Solution {

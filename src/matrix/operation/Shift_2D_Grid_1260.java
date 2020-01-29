@@ -1,7 +1,6 @@
 package matrix.operation;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 
 class Shift_2D_Grid_1260 {
     class Solution {
@@ -23,7 +22,7 @@ class Shift_2D_Grid_1260 {
             
             List<List<Integer>> res = new ArrayList<>();
 
-            for(int i = 0; i < R; i++){
+            for(int i = 0; i < k; i++){
                 res.add(Arrays.asList(temp[i]));
             }
             return res;

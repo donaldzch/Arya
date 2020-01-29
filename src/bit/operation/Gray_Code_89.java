@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Gray_Code_89 {
     public List<Integer> grayCode(int n) {
-        List<Integer> result = new ArrayList();
+        List<Integer> result = new ArrayList<>();
         result.add(0);
         int i = 0, code = 0;
         while (i < n) {

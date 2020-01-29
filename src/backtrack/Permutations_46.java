@@ -1,7 +1,6 @@
 package backtrack;
 
-import java.awt.List;
-import java.util.ArrayList;
+import java.util.*;
 
 class Permutations_46 {
     class Solution {

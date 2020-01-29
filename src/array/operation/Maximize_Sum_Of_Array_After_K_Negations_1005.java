@@ -1,6 +1,6 @@
 package array.operation;
 
-import java.util.Comparator;
+import java.util.*;
 
 class Maximize_Sum_Of_Array_After_K_Negations_1005 {
     class Solution {

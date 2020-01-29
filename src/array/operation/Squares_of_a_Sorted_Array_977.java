@@ -1,7 +1,5 @@
 package array.operation;
 
-import javax.xml.crypto.dsig.keyinfo.RetrievalMethod;
-
 class Squares_of_a_Sorted_Array_977 {
     class Solution {
         public int[] sortedSquares(int[] A) {

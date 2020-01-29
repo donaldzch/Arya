@@ -116,7 +116,7 @@ public class Matrix_01_542 {
                 {1, 1, 1}
         };
 
-        int[][] ret = new Matrix_01_542().new Solution1().updateMatrix(matrix);
+        new Matrix_01_542().new Solution1().updateMatrix(matrix);
         System.out.print("done");
     }
 }

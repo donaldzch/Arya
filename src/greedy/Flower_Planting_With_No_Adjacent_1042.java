@@ -1,5 +1,7 @@
 package greedy;
 
+import java.util.*;
+
 class Flower_Planting_With_No_Adjacent_1042 {
     class Solution {
         public int[] gardenNoAdj(int N, int[][] paths) {

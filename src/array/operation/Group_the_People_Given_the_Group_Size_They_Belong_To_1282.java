@@ -1,9 +1,6 @@
 package array.operation;
 
-import java.awt.List;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 class Group_the_People_Given_the_Group_Size_They_Belong_To_1282 {
     class Solution {

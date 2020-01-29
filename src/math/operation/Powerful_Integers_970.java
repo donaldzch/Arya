@@ -1,6 +1,6 @@
 package math.operation;
 
-import java.util.Set;
+import java.util.*;
 
 class Powerful_Integers_970 {
     class Solution {

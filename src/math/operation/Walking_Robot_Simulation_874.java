@@ -1,5 +1,7 @@
 package math.operation;
 
+import java.util.*;
+
 class Walking_Robot_Simulation_874 {
     class Solution {
         public int robotSim(int[] commands, int[][] obstacles) {

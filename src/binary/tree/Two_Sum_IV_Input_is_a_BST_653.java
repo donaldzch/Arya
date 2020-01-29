@@ -20,7 +20,7 @@ public class Two_Sum_IV_Input_is_a_BST_653 {
         return findTarget(root, k, set);
     }
 
-    private boolean findTarget(TreeNode node, int k, Set set) {
+    private boolean findTarget(TreeNode node, int k, Set<Integer> set) {
          if (node == null) {
              return false;
          }
@@ -65,7 +65,7 @@ public class Two_Sum_IV_Input_is_a_BST_653 {
          return false;
     }
 
-    private void inorder(TreeNode root, List list) {
+    private void inorder(TreeNode root, List<Integer> list) {
          if (root == null) return;
          inorder(root.left, list);
          list.add(root.val);

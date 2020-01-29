@@ -32,7 +32,7 @@ public class Accounts_Merge_721 {
 
             List<List<String>> res = new ArrayList<>();
             for (String p : unions.keySet()) {
-                LinkedList emails = new LinkedList(unions.get(p));
+                LinkedList<String> emails = new LinkedList<>(unions.get(p));
                 emails.addFirst(emailToName.get(p));
                 res.add(emails);
             }
